@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Soundex {
 
+
     public static void main(String[] args) {
 
         //Scan in name
@@ -33,6 +34,7 @@ public class Soundex {
         // r with 6
         // then for each seq of identical numbers replace with 1 of same number
         // then make 4 char string, by dropping every thin past third or add ecxtra 0's
+        // Based on Odell and Russell, 1922; Knuth, 1973.
 
         // modified name, i.e. result (r)
         String r = "" + name.toLowerCase().charAt(0);
